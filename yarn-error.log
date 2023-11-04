@@ -1,0 +1,105 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js add react-datepicker
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.19.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/papi/.cache/yarn/v6/npm-css-to-react-native-3.0.0-62dbe678072a824a689bcfee011fc96e02a7d756-integrity/node_modules/css-to-react-native/.yarn-metadata.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "frontend-desktop",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@fortawesome/fontawesome-svg-core": "^6.1.1",
+      "@fortawesome/free-regular-svg-icons": "^6.1.1",
+      "@fortawesome/free-solid-svg-icons": "^6.1.1",
+      "@fortawesome/react-fontawesome": "^0.1.18",
+      "@reduxjs/toolkit": "^1.8.2",
+      "@testing-library/jest-dom": "^5.16.4",
+      "@testing-library/react": "^13.3.0",
+      "@testing-library/user-event": "^13.5.0",
+      "@types/jest": "^27.5.1",
+      "@types/node": "^16.11.36",
+      "@types/react": "^18.0.9",
+      "@types/react-dom": "^18.0.5",
+      "axios": "^0.27.2",
+      "bootstrap": "^5.1.3",
+      "lodash": "^4.17.21",
+      "moment": "^2.29.3",
+      "react": "^18.1.0",
+      "react-bootstrap": "^2.4.0",
+      "react-checkbox-tree": "^1.7.3",
+      "react-countdown": "^2.3.2",
+      "react-date-object": "^2.1.5",
+      "react-date-range": "^1.4.0",
+      "react-datepicker": "^4.8.0",
+      "react-dom": "^18.1.0",
+      "react-icons": "^4.4.0",
+      "react-loading-overlay-ts": "^1.0.5",
+      "react-loading-skeleton": "^3.1.0",
+      "react-multi-carousel": "^2.8.0",
+      "react-native-svg": "^12.3.0",
+      "react-otp-input": "^2.4.0",
+      "react-qr-code": "^2.0.7",
+      "react-redux": "^8.0.2",
+      "react-router-dom": "^6.3.0",
+      "react-scripts": "5.0.1",
+      "react-toastify": "^9.0.4",
+      "styled-components": "^5.3.5",
+      "sweetalert2": "^11.4.17",
+      "typescript": "^4.7.2",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "devDependencies": {
+      "@types/react-date-range": "^1.4.3",
+      "@types/react-datepicker": "^4.4.2",
+      "@types/styled-components": "^5.1.25"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
